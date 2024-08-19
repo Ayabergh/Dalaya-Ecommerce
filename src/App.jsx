@@ -12,7 +12,7 @@ import Cart from './Pages/Cart';
 import Wishlist from './Pages/Wishlist';
 import Discount from './Pages/Discount'
 import Menu from './Menu/Menu';
-import Women from './Pages/women';
+import Women from './Pages/Women';
 const App = () => {
   return (
     <>
