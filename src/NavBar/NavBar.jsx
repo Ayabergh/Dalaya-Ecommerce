@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState,useEffect } from 'react';
+import { Link,useLocation } from 'react-router-dom';
 import { IoPersonOutline, IoSearchSharp } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
@@ -36,10 +36,12 @@ export const navLinks = [
 
 const NavBar = () => {
     const [showMenu, setshowMenu] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setshowMenu(!showMenu);
       };
+  
 
     return (
         <>
@@ -49,7 +51,7 @@ const NavBar = () => {
                         Refer a friend & get <span className='text-red-700'><Link to={"/discount"}>$30</Link></span> off from your next purchase ✨
                     </div>
 
-                    <div className='bg-orange-100  flex justify-between items-center py-3 '>
+                    <div className={`flex justify-between items-center py-3 ${location.pathname !== '/' ? 'bg-white' : 'bg-orange-100'}`}>
                         {/** Logo */}
                         <div className='text-5xl md:text-5xl ml-5'>
                             <Link to={"/"}>Dalaya</Link>

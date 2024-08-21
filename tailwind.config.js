@@ -9,6 +9,7 @@ export default {
 
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],
+        'jost': ['Jost', 'sans-serif'],
       },
       container:{
         center: true,

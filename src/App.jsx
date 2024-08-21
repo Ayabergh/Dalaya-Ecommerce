@@ -8,16 +8,16 @@ import Men from './Pages/Men';
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Cart from './Pages/Cart';
-
 import Wishlist from './Pages/Wishlist';
 import Discount from './Pages/Discount'
 import Menu from './Menu/Menu';
 import Women from './Pages/Women';
+import Signup from './Pages/Signup';
 const App = () => {
   return (
     <>
        <BrowserRouter>
-      <NavBar/>
+      <NavBar />
       <Routes >
         <Route path='/' element={<Home/>} />
         <Route path='/Shop' element={<Shop/>} />
@@ -29,6 +29,7 @@ const App = () => {
         <Route path='/wishlist' element={<Wishlist/>} />
         <Route path='/discount' element={<Discount/>} />
         <Route path='/women' element={<Women/>} />
+        <Route path='/signup' element={<Signup/>} />
       </Routes>
       </BrowserRouter>
     </>
