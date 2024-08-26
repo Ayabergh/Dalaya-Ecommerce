@@ -6,8 +6,15 @@ import pic3 from '../assets/w-9.jpg';
 import pic4  from '../assets/w-7.jpg';
 import pic5  from '../assets/w-8.jpg';
 import pic6  from '../assets/w-11.jpg';
+import pic7  from '../assets/d1.jpg';
+import pic8  from '../assets/d2.jpg';
+import pic9  from '../assets/d6.jpg';
+import pic10  from '../assets/d4.jpg';
+import pic11  from '../assets/d5.jpg';
 import Cards from '../Cards/Cards'
 import Footer from '../Footer/Footer';
+import { FaInstagram } from "react-icons/fa";
+
 const Home = () => {
   return (
     <>
@@ -71,7 +78,7 @@ const Home = () => {
     <div>
       <div className='text-3xl font-semibold pt-10 pl-10'>
         <p>Best Sellers</p>
-        <h1 className='text-8xl text-center mt-52 mb-52'>New Arrivals</h1>
+        <h1 className='text-8xl text-center mt-52 mb-52'>New Arrivals ...</h1>
       </div>
     </div>
     </div>
@@ -95,6 +102,44 @@ const Home = () => {
 </div>
       <div>
         <Cards/>
+      </div>
+
+      <div className='mb-16 '> 
+        <div>
+          <Link to={'https://www.instagram.com/'} className='flex justify-center'>
+            <div><FaInstagram className='mt-1 text-xl'/></div>
+            <div className='text-xl mb-16'>  Follow Us On Instagram </div>
+          </Link>
+
+          <div className='ml-8 md:flex md:gap-6 '>
+           <div className='group'><img src={pic7} className='object-cover group-hover:scale-105 duration-300 md:w-[270px] rounded  mb-3 ' /></div> 
+           <div className='group'><img src={pic9} className='object-cover group-hover:scale-105 duration-300 md:w-[270px] rounded mb-3' /></div> 
+           <div className='group'><img src={pic10} className='object-cover group-hover:scale-105 duration-300 md:w-[270px] rounded md:h-[180px] mb-3' /></div> 
+           <div className='group'><img src={pic11} className='object-cover group-hover:scale-105 duration-300 md:w-[270px] rounded mb-3' /></div> 
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <p className='text-2xl font-semibold font-jost text-center'>
+          NEWSLETTER
+          </p>
+          <p className='text-4xl font-semibold font-jost text-center '>Sign up and get up to <span className='text-red-600'>20%</span>  <br /> off your first purchase</p>
+        </div>
+        <div className='flex justify-center mt-10 mb-32'>
+        <form class="w-full max-w-sm">
+  <div class="flex items-center border-b border-neutral-950 py-2 ">
+    <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name"/>
+    <button class="flex-shrink-0 bg-black hover:bg-orange-100 border-neutral-950 hover:border-orange-100 text-sm border-4 text-white hover:text-black hover:font-medium py-1 px-2 rounded" type="button">
+      Sign Up
+    </button>
+    <button class="flex-shrink-0 border-transparent border-4 text-black text-sm py-1 px-2 rounded" type="button">
+      Cancel
+    </button>
+  </div>
+</form>
+        </div>
       </div>
 
       <div>
