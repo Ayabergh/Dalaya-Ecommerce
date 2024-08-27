@@ -13,6 +13,7 @@ import Discount from './Pages/Discount'
 import Menu from './Menu/Menu';
 import Women from './Pages/Women';
 import Signup from './Pages/Signup';
+import House from './Pages/House';
 const App = () => {
   return (
     <>
@@ -30,6 +31,8 @@ const App = () => {
         <Route path='/discount' element={<Discount/>} />
         <Route path='/women' element={<Women/>} />
         <Route path='/signup' element={<Signup/>} />
+        <Route path='/house' element={<House/>} />
+
       </Routes>
       </BrowserRouter>
     </>

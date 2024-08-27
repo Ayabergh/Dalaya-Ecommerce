@@ -11,6 +11,7 @@ import pic8  from '../assets/d2.jpg';
 import pic9  from '../assets/d6.jpg';
 import pic10  from '../assets/d4.jpg';
 import pic11  from '../assets/d5.jpg';
+
 import Cards from '../Cards/Cards'
 import Footer from '../Footer/Footer';
 import { FaInstagram } from "react-icons/fa";
@@ -79,6 +80,7 @@ const Home = () => {
       <div className='text-3xl font-semibold pt-10 pl-10'>
         <p>Best Sellers</p>
         <h1 className='text-8xl text-center mt-52 mb-52'>New Arrivals ...</h1>
+        <img src="" alt="" />
       </div>
     </div>
     </div>
