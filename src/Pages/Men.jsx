@@ -33,7 +33,7 @@ const Men = () => {
       </div>
     </div>
 
-    <div className='ml-10 mb-20'>
+    <div className=' mb-20'>
 
       <div className='hide-scrollbar md:flex overflow-x-auto space-x-4 ml-24'>
       <Link to={'/try'} className=''>
