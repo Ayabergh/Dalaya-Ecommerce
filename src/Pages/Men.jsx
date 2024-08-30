@@ -45,7 +45,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
   </Link>
@@ -61,7 +61,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -77,7 +77,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -93,7 +93,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -109,7 +109,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
   </Link>
@@ -125,7 +125,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -141,7 +141,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -157,7 +157,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
@@ -173,7 +173,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
   </Link>
@@ -189,7 +189,7 @@ const Men = () => {
       <FaRegHeart className='md:text-xl text-2xl mt-1 mr-2' />
     </div>
     <div className='text-center'>
-      <p className='mt-2 text-sm font-medium'>FC Original Hat</p>
+      <p className='mt-2 text-sm font-medium'>FC Original </p>
       <p className='mt-2 text-sm font-semibold text-red-600'>$120.00</p>
     </div>
     </div>
